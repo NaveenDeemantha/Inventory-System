@@ -20,7 +20,7 @@
         </tr>
         <tr>
             <th>Current Quantity</th>
-            <td style="color: #dc2626; font-weight: bold;">{{ $product->quantity }}</td>
+            <td style="color: #E74833; font-weight: bold;">{{ $product->quantity }}</td>
         </tr>
         <tr>
             <th>Category</th>
