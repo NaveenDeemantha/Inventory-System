@@ -13,6 +13,82 @@
 
 This is a custom Inventory Management System built with Laravel and Vue.js.
 
+## Getting Started
+
+Follow these steps to set up the project locally.
+
+### Prerequisites
+
+- PHP 8.1 or higher
+- Composer
+- Node.js and npm
+- MySQL (or another database supported by Laravel)
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/NaveenDeemantha/Inventory-System.git
+    cd inventory-system
+    ```
+
+2.  **Install PHP dependencies**
+    ```bash
+    composer install
+    ```
+
+3.  **Install Node.js dependencies**
+    ```bash
+    npm install
+    ```
+
+4.  **Environment Setup**
+    Copy the `.env.example` file to `.env` and configure your database settings.
+    ```bash
+    cp .env.example .env
+    ```
+    Update the database connection details in `.env`:
+    ```env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=inventory_system
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+
+5.  **Generate Application Key**
+    ```bash
+    php artisan key:generate
+    ```
+
+6.  **Run Migrations and Seeders**
+    This will create the database tables and populate them with initial data (categories, products, users).
+    ```bash
+    php artisan migrate --seed
+    ```
+
+7.  **Start the Development Servers**
+    You need to run both the Laravel server and the Vite development server.
+
+    Terminal 1 (Laravel):
+    ```bash
+    php artisan serve
+    ```
+
+    Terminal 2 (Vite):
+    ```bash
+    npm run dev
+    ```
+
+8.  **Access the Application**
+    Open your browser and visit `http://localhost:8000`.
+
+### Default Login Credentials
+
+- **Email**: `admin@example.com` (Check `DatabaseSeeder.php` if different)
+- **Password**: `password`
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
