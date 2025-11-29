@@ -1,0 +1,122 @@
+[
+    {
+        "id": "TC-001",
+        "title": "Single Mode Fiber Optic Cable (1km)",
+        "description": "High-quality 24-core single mode fiber optic cable for outdoor telecommunication networks. UV resistant jacket.",
+        "price": 450.00,
+        "stock": 50,
+        "category": "Telecommunication",
+        "brand": "OptiCore",
+        "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "TC-002",
+        "title": "48-Port Gigabit Ethernet Switch",
+        "description": "Managed rack-mount switch with 48 Gigabit ports and 4 SFP+ uplinks. Ideal for enterprise networks.",
+        "price": 1200.00,
+        "stock": 15,
+        "category": "Telecommunication",
+        "brand": "NetGear Pro",
+        "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "TC-003",
+        "title": "Fiber Optic Splice Closure (Dome Type)",
+        "description": "Waterproof dome splice closure for up to 144 fibers. IP68 rated for underground and aerial use.",
+        "price": 85.50,
+        "stock": 100,
+        "category": "Telecommunication",
+        "brand": "FiberSafe",
+        "thumbnail": "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "TC-004",
+        "title": "Cat6a Ethernet Cable Spool (1000ft)",
+        "description": "Shielded twisted pair (STP) Cat6a cable for high-speed data transmission. Plenum rated.",
+        "price": 220.00,
+        "stock": 75,
+        "category": "Telecommunication",
+        "brand": "CableMaster",
+        "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "TC-005",
+        "title": "SFP+ Transceiver Module 10G",
+        "description": "10GBase-SR LC multi-mode transceiver, up to 300m. Compatible with major switch brands.",
+        "price": 45.00,
+        "stock": 200,
+        "category": "Telecommunication",
+        "brand": "OptiLink",
+        "thumbnail": "https://images.unsplash.com/photo-1551703599-6b3e8379aa8c?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "CN-001",
+        "title": "Portland Cement (50kg Bag)",
+        "description": "General purpose Portland cement type I/II. Suitable for concrete, mortar, and grout.",
+        "price": 12.50,
+        "stock": 500,
+        "category": "Construction",
+        "brand": "BuildStrong",
+        "thumbnail": "https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "CN-002",
+        "title": "Steel Rebar #4 (1/2 inch) - 20ft",
+        "description": "Grade 60 deformed steel reinforcement bar for concrete structures. High tensile strength.",
+        "price": 15.00,
+        "stock": 300,
+        "category": "Construction",
+        "brand": "SteelCorp",
+        "thumbnail": "https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "CN-003",
+        "title": "Heavy Duty Cordless Hammer Drill",
+        "description": "18V brushless motor hammer drill with 2 batteries and charger. Impact energy 2.6J.",
+        "price": 280.00,
+        "stock": 30,
+        "category": "Construction",
+        "brand": "PowerToolz",
+        "thumbnail": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "CN-004",
+        "title": "Safety Helmet (Hard Hat) - White",
+        "description": "OSHA compliant industrial safety helmet with adjustable suspension and chin strap.",
+        "price": 18.00,
+        "stock": 150,
+        "category": "Construction",
+        "brand": "SafeWork",
+        "thumbnail": "https://images.unsplash.com/photo-1581092921461-eab62e97a782?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "CN-005",
+        "title": "Copper Wire Roll (12 AWG, 500ft)",
+        "description": "THHN/THWN-2 stranded copper building wire. Heat and moisture resistant.",
+        "price": 145.00,
+        "stock": 60,
+        "category": "Construction",
+        "brand": "WireTech",
+        "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "TC-006",
+        "title": "Network Rack Cabinet 42U",
+        "description": "Standard 19-inch server rack cabinet with glass door and cooling fans.",
+        "price": 850.00,
+        "stock": 10,
+        "category": "Telecommunication",
+        "brand": "RackMaster",
+        "thumbnail": "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": "CN-006",
+        "title": "Hydraulic Excavator Bucket Tooth",
+        "description": "Forged steel replacement tooth for standard excavator buckets. Wear resistant.",
+        "price": 45.00,
+        "stock": 80,
+        "category": "Construction",
+        "brand": "HeavyMetal",
+        "thumbnail": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+    }
+]

@@ -27,6 +27,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/categories', [\App\Http\Controllers\CategoryController::class, 'index'])->name('categories.index');
     Route::get('/categories/{slug}', [\App\Http\Controllers\CategoryController::class, 'show'])->name('categories.show');
 
+    // Product Import
+    Route::get('/import', [\App\Http\Controllers\ProductImportController::class, 'index'])->name('import.index');
+    Route::get('/import/search', [\App\Http\Controllers\ProductImportController::class, 'search'])->name('import.search');
+    Route::post('/import', [\App\Http\Controllers\ProductImportController::class, 'store'])->name('import.store');
+
     Route::middleware('role:super_admin')->group(function () {
         Route::resource('users', \App\Http\Controllers\UserController::class);
     });
